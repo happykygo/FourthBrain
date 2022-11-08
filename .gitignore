@@ -1,3 +1,4 @@
 .idea
 */**/.ipynb_checkpoints/
 *.DS_Store
+week-03-reddit-sentiment-analysis/nb/secrets_reddit.py
