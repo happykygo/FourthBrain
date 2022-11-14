@@ -16,8 +16,8 @@ with DAG(
         'retry_delay': timedelta(minutes=5),
         },
     description='A simple Machine Learning workflow for Walmart Sales',
-    schedule_interval=timedelta(days=1),
-    start_date=datetime(2022, 8, 27), 
+    schedule_interval=timedelta(minutes=5),
+    start_date=datetime(2022, 11, 14),
     tags=['walmart', 'ml', 'workflow'] # OPTIONAL: tags
 ) as dag:
 
