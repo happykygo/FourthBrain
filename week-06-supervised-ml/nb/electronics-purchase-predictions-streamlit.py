@@ -149,7 +149,6 @@ with tab3:
     # Use columns to separate visualizations for models
     # Include a plot for local and global explanability!
 
-    #########
     col1, col2 = st.columns(2)
 
     model1_fig = model_results_df[model_results_df["model"] == model1_select]
@@ -172,14 +171,14 @@ with tab3:
     with col2:
         st.header(model2_select)
 
-        if model1_select == "Logistic Regression":
+        if model2_select == "Logistic Regression":
             st.image(lr_global_fig, caption='lr global shap')
             st.image(lr_local_fig, caption='lr local shap')
 
-        if model1_select == "SVM":
+        if model2_select == "SVM":
             st.image(svm_global_fig, caption='svm global shap')
             st.image(svm_local_fig, caption='svm local shap')
 
-        if model1_select == "Gradient Boosting Classifier":
+        if model2_select == "Gradient Boosting Classifier":
             st.image(gbt_global_fig, caption='gbt global shap')
             st.image(gbt_local_fig, caption='gbt local shap')
