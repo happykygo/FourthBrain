@@ -2,3 +2,7 @@
 */**/.ipynb_checkpoints/
 *.DS_Store
 week-03-reddit-sentiment-analysis/nb/secrets_reddit.py
+week-03-reddit-sentiment-analysis/nb/__pycache__/
+week-06-supervised-ml/nb/__pycache__/
+week-08-unsupervised-ml/nb/__pycache__/
+/week-09-computer-vision/
